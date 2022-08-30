@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletronica</title>
+</head>
+<style>
+    body {
+        background-image: url("https://th.bing.com/th/id/R.146610b4a3f6643ce2a701b8b7f0d608?rik=Y5jI%2bJoGTRVc5g&riu=http%3a%2f%2fwww.ebc.com.br%2fsites%2f_portalebc2014%2ffiles%2fatoms_image%2f928695-tse_lacra_sistemas20eleitorais_2350.jpg&ehk=4qiVw861yQA6va3onq76hY6B8J1PzYs4YjGRcYqDD%2b4%3d&risl=&pid=ImgRaw&r=0");
+        background-color: blue;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative
+    }
+</style>
+<body>
+
+
+    <script>
+
+        let rodar = true;
+        while(rodar) {
+            let usuario = prompt("Digite seu nome:");
+            let senha = prompt("Digite sua senha");
+            let nome = prompt("Digite seu usuário: ");
+            let criarsenha = prompt("Crie sua senha");
+            let nome_part = prompt("Digite o nome do partido: ")
+
+        }
+        
+        
+                
+
+            
+    
+        
+
+              
+            
+
+            if (usuario == nome && senha == criarsenha) {
+                alert("Login válido");
+
+                // coloque as validações aqui
+                rodar = false;
+            } else {
+                alert("Login inválido");
+                rodar = false;
+            }
+
+
+
+
+                
+        
+         
+        
+        
+        
+    </script>
+    <label for="myfile">Coloque uma foto:</label>
+    <input type="file" id="myfile" name="myfile"><br><br>
+    <label for="checkbox">Voto nulo:</label><br>
+    <input type="checkbox" id="option1" name="option1" value="Nulo">
+    <label for="checkbox">Voto em branco:</label><br>
+    <input type="checkbox" id="option2" name="option2" value="Branco">
+    <label for="checkbox">Cancelar</label><br>
+    <input type="checkbox" id="option3" name="option3" value="Cancelar">
+    
+    <input type="submit" value="Submit">
+    <input type="reset">
+    
+</body>
+</html>
